@@ -1,0 +1,62 @@
+.menu
+{
+  background-color: #F05F40;;
+  border-bottom: 4px solid #F05F40;;
+  width:100%;
+  height: auto;
+  padding: 0 10px;
+  position: fixed;
+  margin: 0px;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.menu  .navbar-nav > .active > a
+{
+  background-color : #04A3ED;
+  color: white;
+  font-weight: bold;
+}
+
+.menu  .navbar-nav >  li >  a
+{
+  font-size: 13px;
+  color: white;
+  padding: 10px 35px;
+
+}
+.menu  .navbar-nav >  li >  a:hover
+{
+  background-color: #F05F40;
+}
+
+.navbar-header > a
+{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 5px 30px;
+}
+.navbar-header > a:hover
+{
+  text-decoration: none;
+  color: #ef9d8b;;
+}
+
+.content-post {
+  padding: 50px 15px 15px 15px;
+}
+
+.title {
+  color: #F05F40;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #777;
+}

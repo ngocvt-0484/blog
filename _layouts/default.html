@@ -18,19 +18,13 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -80,8 +74,10 @@
         <div class="container-about">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+                    <p class="text-faded">Người ơi,em mơ về anh đã bao ngày</p>
+                       <p class="text-faded">Một người yêu em và thương em</p>
+                       <p class="text-faded">Chờ anh,em đã chờ lâu lắm</p>
+                       <p class="text-faded">Biết không? Người em chờ là người cho em ngày bình yên</p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
@@ -101,16 +97,18 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Cô nàng công nghệ UET</h3>
+                        <a href="{{ '/posts/1' | prepend: site.baseurl }}"><h3>Cô nàng công nghệ UET</h3></a>
                         <p class="text-muted">
 Hàng xóm nhà em là một cô nàng học UET. Em chuyển đến cạnh nhà cô ấy được 9 tháng rồi, nhưng gần 6 tháng chẳng gặp nhau bao giờ, chẳng nói chuyện ji. Em thì ghét hắn ra trò vì hắn ở chẳng thấy người, đi chẳng thấy bóng (Sau này em mới biết không thấy hắn vì hắn toàn mài mông trên ghế thư viện, mòn hết cả ghế rồi, đến nỗi nhà trường còn phải thay vài cái mới chỗ hắn hay ngồi). Rồi tình cờ một ngày đẹp zời, hắn đi học tiếng anh cô Nhã về, gặp em hắn chào
                         </p>
                     </div>
-c                </div>
+               </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Chuyện chàng cô đơn đêm rằm trung thu</h3>
+                        <a href="{{ '/posts/2' | prepend: site.baseurl }}">
+                            <h3>Chuyện chàng cô đơn đêm rằm trung thu</h3>
+                        </a>
                         <p class="text-muted">
                             Gửi Cún!
 Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thời gian qua, cùng nhau trao đổi về giá trị nhân sinh của cuộc sống, về sở thích của nhau, thói quen và cả những tính xấu của nhau nữa, về cả chuyện bạn bè, chuyện gia đình, mục tiêu học tập của hai đứa…
@@ -120,7 +118,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
+                        <a href="#"><h3>Up to Date</h3></a>
                         <p class="text-muted">
                         Our templates are updated regularly so they don't break
                         Our templates are updated regularly so they don't break
@@ -134,7 +132,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
+                        <a href=""><h3>Made with Love</h3></a>
                         <p class="text-muted">
                             Our templates are updated regularly so they don't break
                             Our templates are updated regularly so they don't break
@@ -168,10 +166,8 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
     </div>
 
     <audio class="blup" style="display: none">
-      <source src="https://www.freesound.org/data/previews/265/265115_4373976-lq.mp3" type="audio/ogg">
     </audio >
     <audio class="blop" style="display: none">
-      <source src="https://www.freesound.org/data/previews/265/265115_4373976-lq.mp3" type="audio/ogg">
     </audio>
     <div class="sound">sound</div>
         <div class="container-fluid">
@@ -181,12 +177,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <img src="img/portfolio/thumbnails/11.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                               <span class="glyphicon glyphicon-search"></span>
                             </div>
                         </div>
                     </a>
@@ -196,12 +187,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <img src="img/portfolio/thumbnails/22.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <span class="glyphicon glyphicon-search"></span>
                             </div>
                         </div>
                     </a>
@@ -211,12 +197,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <img src="img/portfolio/thumbnails/33.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <span class="glyphicon glyphicon-search"></span>
                             </div>
                         </div>
                     </a>
@@ -226,12 +207,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <img src="img/portfolio/thumbnails/44.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                               <span class="glyphicon glyphicon-search"></span>
                             </div>
                         </div>
                     </a>
@@ -241,12 +217,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <img src="img/portfolio/thumbnails/55.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <span class="glyphicon glyphicon-search"></span>
                             </div>
                         </div>
                     </a>
@@ -257,10 +228,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
+                                    <span class="glyphicon glyphicon-search"></span>
                                 </div>
                             </div>
                         </div>
@@ -273,12 +241,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <img src="img/portfolio/thumbnails/11.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <span class="glyphicon glyphicon-search"></span>
                             </div>
                         </div>
                     </a>
@@ -288,12 +251,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <img src="img/portfolio/thumbnails/22.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <span class="glyphicon glyphicon-search"></span>
                             </div>
                         </div>
                     </a>
@@ -303,12 +261,7 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
                         <img src="img/portfolio/thumbnails/33.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <span class="glyphicon glyphicon-search"></span>
                             </div>
                         </div>
                     </a>

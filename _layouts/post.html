@@ -1,8 +1,14 @@
----
-layout: default
----
-
-<h2>{{ page.title }}</h2>
-<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="menu">
+        <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="{{ site.url | append: site.baseurl }}">Ngoc Vu Blog</a>
+        </div>
+      </div>
+    </div>
+      {{ content }}
+  </body>
+</html>
