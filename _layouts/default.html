@@ -29,8 +29,15 @@
 </head>
 
 <body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+<div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9&appId=828842593931194";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -274,20 +281,14 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
         <div class="container-about">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">ngocvu.uet@gmail.com</a></p>
+                    <div class="fb-comments" data-href="https://ngocvu3010.github.io/blog/" data-width="1000" data-numposts="10"></div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -303,7 +304,16 @@ Gặp em là một hạnh phúc lớn của đời anh. Đi cùng em trong thờ
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
-
+    <audio controls autoplay class="blup" style="display: none" id="myAudio">
+        <source src="music/1.mp3" type="audio/mpeg" >
+    </audio>
+    <script type="text/javascript">
+        var audio = document.getElementById("myAudio");
+        audio.volume = 0.05
+        $(".sound").on("click", function() {
+            audio.pause();
+        });
+    </script>
 </body>
 
 </html>
