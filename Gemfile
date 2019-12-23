@@ -27,3 +27,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 add line ms
+repo goc
+repo goc
+repo goc
